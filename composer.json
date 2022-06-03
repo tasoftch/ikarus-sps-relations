@@ -1,5 +1,5 @@
 {
-  "name": "tasoft/phpstorm-template",
+  "name": "ikarus/sps-relations",
   "license": "BSD-3-Clause",
   "authors": [
     {
@@ -9,13 +9,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "TASoft\\" : "src"
+      "Ikarus\\SPS\\Relation\\" : "src"
     }
   },
   "require" : {
-    "php": ">=7.2"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6"
+    "php": ">=7.2",
+    "ikarus/sps": "^0.8"
   }
 }
